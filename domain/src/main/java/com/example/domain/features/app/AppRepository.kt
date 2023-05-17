@@ -1,4 +1,9 @@
 package com.example.domain.features.app
 
-class AppRepository {
+interface AppRepository {
+
+    suspend fun isOnBoardingAlreadyShown(): Boolean
+    suspend fun isUserLoggedIn(): Boolean
+    suspend fun setOnBoardingStep()
+    suspend fun setUserLoggingInStep()
 }
