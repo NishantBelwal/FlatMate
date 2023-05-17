@@ -1,4 +1,9 @@
 package com.example.presentation.ui.transaction
 
-class TransactionViewModel {
+import androidx.lifecycle.ViewModel
+import javax.inject.Inject
+
+class TransactionViewModel @Inject constructor(
+): ViewModel(){
+//TODO
 }

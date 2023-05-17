@@ -1,11 +1,11 @@
-package com.example.presentation.ui.profile
+package com.example.presentation.ui.welcome
 
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
 
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ProfileScreen() {
-
+fun WelcomeScreen (){
     //TODO
 }
